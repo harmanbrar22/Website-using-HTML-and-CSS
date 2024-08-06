@@ -1,0 +1,255 @@
+*{  
+    font-size: 20px;
+}
+body{
+    margin:0;
+    padding: 0;
+    background-color: #FFF1DB;
+}
+.header{
+    display: flex;
+    background-color:#EF5A6F;
+    height:60px;
+    padding: 0px;
+    margin: 0px;
+    border: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header p, img, a, button{
+    
+    margin: 0px;
+    padding: 0px;
+    font: 20px bold;
+    height: 100%;
+    align-content: center;
+    width: 120px;
+    text-align: center;
+}
+.header img{
+    height: 80%;
+}
+.header a:hover{
+    background-color:#D4BDAC;
+}
+
+.dropdown{
+    display: block;
+    position: relative;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    height: 100%;
+    align-content: center;
+    cursor:pointer;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color:#EF5A6F;
+    }
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    cursor:pointer;
+    width: 100%;
+    z-index: 1;
+    padding: 0px;   
+}
+.dropdown-content a{
+    color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown button{
+    height: 100%;
+    background-color:#EF5A6F;
+    border:0;
+    font: 20px bold;
+}
+.dropdown button:hover{
+    background-color:#D4BDAC;
+}
+.dropdown:hover{
+    background-color:#EF5A6F;
+}
+
+.main1{
+    padding-top: 3rem 1.5rem 3rem 1.5rem;
+    margin:3rem 1.5rem 3rem 1.5rem;
+    text-align: center;
+    align-content: center;
+}
+
+.main1 h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.main1-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+
+.main1-1 p{
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+.main1-2{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+.main1-2 button{
+    background-color:#D4BDAC;
+    font-size: 1rem;
+    border-radius: 7px;
+    border:0;
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    min-width: 150px;
+       
+}
+.main1-2 button:hover{
+    background-color: #EF5A6F;
+}
+
+.main1-3{
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    margin: auto;        
+}
+.main1-3-1{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    max-width: 720px;
+    margin: auto;
+    
+}
+
+.main1-3-1 img{
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.main2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.main2 h2{
+    font-size: 2rem;
+    border-bottom: 2px solid grey;
+    margin-bottom: 0.5rem;
+    text-align: center;    
+}
+
+.main2-1{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    padding:2rem 0rem 2rem 0rem;
+}
+.main2-1-col1{
+    display: block;
+    position: relative;
+    width: 33.33%;
+    margin: 10px;
+    padding: 10px;
+    max-width: 100%;
+}
+.main2-1-img{
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    border-radius: .5rem;
+    background-color:#EF5A6F;
+    align-items: center;
+    padding:10px;
+    margin: 0;
+    justify-content: center;
+}
+.main2-1-col1 h3{
+    padding:5px;
+    margin: 5px;
+    overflow: auto;
+}
+.main2-1-col1 p{
+    padding:10px;
+    margin: 10px;
+    text-align:center;
+}
+.main2-1-col1 a{
+    display: flex;
+    background-color:#D4BDAC;
+    height:60px;
+    width: 160px;
+    text-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main2-1-col1 a:hover{
+    background-color:#EF5A6F;
+}
+.main2img{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.bs{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-container{
+    display: flex;
+    height: 60px;
+    margin: 30px 0px 0px 0px;
+    padding: 10px;
+    justify-content:flex-start;
+    background-color: #EF5A6F;
+
+}
+.footer-container span{
+    margin-right: auto;
+}
+.footer-container a{
+    width:30px;
+    margin: 0 10px;
+    justify-content: end;
+}
+.footer-container img{
+    height: 25px;
+    width: 25px;
+}
+
